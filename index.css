@@ -132,13 +132,22 @@ tbody td button:hover {
 }
 
 @media (max-width: 764px) {
-  #form-content input {
-    margin: 5px 0;
-  }
+  body, table, input, button {
+    font: 300 10px/70% 'Roboto', sans-serif;
+  }  
 
   #form-content {
     flex-direction: column;
     align-items: stretch;
+  }
+
+  .input-wrapper {
+    margin: 5px 0;
+  }
+
+  table thead {
+    font-size: 10px;
+    line-height: 8px;
   }
 
   fieldset button {

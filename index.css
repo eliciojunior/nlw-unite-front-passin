@@ -153,4 +153,8 @@ tbody td button:hover {
   fieldset button {
     width: 100%;
   }
+
+  section > div {
+    width: 100vw;
+  }
 }
